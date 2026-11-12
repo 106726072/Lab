@@ -1,0 +1,78 @@
+/*
+filename: lab04.css
+author: bahung
+created: 05/10/2026
+last modified: 
+description: Stylesheet for lab04.html
+*/
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+* { font-family: calibri, sans-serif;
+    color: #2F4F4F;
+}     
+
+h2 {
+    color: rgb(0,128,128);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+ aside, footer { font-style: italic; }     
+
+h1, h2, h3 { font-family: Arial, sans-serif; }
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#images {
+    text-align: center;
+}
+
+#heading-title {
+    color: red;
+}
+
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.month {
+    text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+ol ul {
+    list-style-type: square;
+}
+
+li:nth-child(1) {
+    color: red;
+}
+
+
+/* aside:hover {
+    visibility: hidden;
+} */
+
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+ul li:first-child{
+    color: red
+}
